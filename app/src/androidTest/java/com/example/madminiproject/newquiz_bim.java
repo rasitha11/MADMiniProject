@@ -42,7 +42,7 @@ public class newquiz_bim extends AppCompatActivity {
 
 
 
-
+//zvagfiuagfiugaoiufgo
        ImageView myImageView = (ImageView) findViewById(R.id.profile);
        myImageView.setImageResource(R.drawable.profilepic);
 
