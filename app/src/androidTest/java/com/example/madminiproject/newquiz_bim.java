@@ -38,6 +38,7 @@ public class newquiz_bim extends AppCompatActivity {
 
 
     //https://www.youtube.com/watch?v=V0AETAjxqLI
+    //Resource
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
