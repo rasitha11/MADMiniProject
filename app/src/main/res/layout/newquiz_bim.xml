@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".newquiz">
+    tools:context=".newquiz_bim">
+
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -13,8 +14,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="l"
-        tools:layout_editor_absoluteX="326dp"
-        tools:layout_editor_absoluteY="-5dp" />
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="-4dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -40,12 +41,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="49dp"
-        android:layout_height="42dp"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.074"
-        tools:layout_editor_absoluteX="354dp"
+        app:layout_constraintVertical_bias="0.085"
+        tools:layout_editor_absoluteX="328dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -54,7 +55,7 @@
         android:layout_height="wrap_content"
         android:text="Logged in as"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="7dp" />
 
@@ -65,7 +66,7 @@
         android:autoLink="phone"
         android:linksClickable="true"
         android:text="TextView"
-        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="7dp" />
 
     <EditText
@@ -76,7 +77,31 @@
         android:inputType="textPersonName"
         android:singleLine="false"
         android:text="l"
-        tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="-5dp" />
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="283dp"
+        android:layout_height="69dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:inputType="textPersonName"
+        android:text="Quiz Manager"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="143dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
