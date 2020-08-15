@@ -2,10 +2,26 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/owner"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".newquiz_bim">
 
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="390dp"
+        android:layout_height="73dp"
+        android:adjustViewBounds="true"
+        android:background="#C8C2C2"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        app:srcCompat="@android:drawable/menuitem_background" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -18,35 +34,36 @@
         tools:layout_editor_absoluteY="-4dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/log_out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:text="TextView"
+        android:text="Logout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="7dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/my_account"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="269dp"
+        android:text="My Account"
+        tools:layout_editor_absoluteX="253dp"
         tools:layout_editor_absoluteY="7dp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="61dp"
-        android:layout_height="51dp"
+        android:id="@+id/profile"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085"
-        tools:layout_editor_absoluteX="328dp"
+        app:layout_constraintVertical_bias="0.065"
+        tools:layout_editor_absoluteX="340dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -65,7 +82,7 @@
         android:layout_height="wrap_content"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:text="TextView"
+        android:text='"Name"'
         tools:layout_editor_absoluteX="182dp"
         tools:layout_editor_absoluteY="7dp" />
 
@@ -77,31 +94,95 @@
         android:inputType="textPersonName"
         android:singleLine="false"
         android:text="l"
-        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteX="240dp"
         tools:layout_editor_absoluteY="-3dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="283dp"
-        android:layout_height="69dp"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
         android:clickable="false"
         android:ems="10"
         android:fontFamily="@font/aclonica"
         android:inputType="textPersonName"
+        android:lines="@android:integer/config_mediumAnimTime"
         android:text="Quiz Manager"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="41dp" />
+        tools:layout_editor_absoluteY="44dp" />
 
     <View
         android:id="@+id/divider"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="143dp" />
+        android:layout_width="414dp"
+        android:layout_height="3dp"
+        android:background="@android:drawable/screen_background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="391dp"
+        android:layout_height="21dp"
+        android:adjustViewBounds="true"
+        android:background="#716A6A"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="420dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:tabBackground="@android:drawable/title_bar"
+        app:tabIndicator="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-9dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Quiz" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Quizzes" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forum" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
