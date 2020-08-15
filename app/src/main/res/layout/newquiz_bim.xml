@@ -8,10 +8,147 @@
     tools:context=".newquiz_bim">
 
 
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="92dp"
+        android:layout_height="39dp"
+        android:text="Correct"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <Button
+        android:id="@+id/addquestionButton"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="114dp"
+        android:background="#686666"
+        android:text="Add another question"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="389dp"
+        android:layout_height="385dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="101dp"
+        android:adjustViewBounds="true"
+        android:background="#C8C2C2"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="163dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="228dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="291dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="355dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="418dp"
+        android:adjustViewBounds="true"
+        android:background="#FFFFFF"
+        android:cropToPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/menuitem_background" />
+
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="390dp"
-        android:layout_height="73dp"
+        android:layout_height="81dp"
         android:adjustViewBounds="true"
         android:background="#C8C2C2"
         android:cropToPadding="true"
@@ -40,10 +177,12 @@
         android:autoLink="phone"
         android:linksClickable="true"
         android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="7dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
 
     <TextView
         android:id="@+id/my_account"
@@ -95,7 +234,7 @@
         android:singleLine="false"
         android:text="l"
         tools:layout_editor_absoluteX="240dp"
-        tools:layout_editor_absoluteY="-3dp" />
+        tools:layout_editor_absoluteY="-2dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -109,10 +248,12 @@
         android:text="Quiz Manager"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="44dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
 
     <View
         android:id="@+id/divider"
@@ -126,16 +267,18 @@
         android:id="@+id/logo"
         android:layout_width="43dp"
         android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="-2dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="391dp"
-        android:layout_height="21dp"
+        android:layout_height="23dp"
         android:adjustViewBounds="true"
         android:background="#716A6A"
         android:cropToPadding="true"
@@ -148,6 +291,7 @@
         app:srcCompat="@android:drawable/menuitem_background" />
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout2"
         android:layout_width="420dp"
         android:layout_height="29dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -178,11 +322,204 @@
             android:text="Forum" />
     </com.google.android.material.tabs.TabLayout>
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/create_title"
+        android:layout_width="256dp"
+        android:layout_height="24dp"
+        android:background="#00000000"
+        android:color="#0000"
+        android:listSelector="#00000000"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:shadowRadius="0"
+        android:text="Create A New Quiz"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:visibility="visible"
 
-    </androidx.viewpager.widget.ViewPager>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22"
+        tools:visibility="visible" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="200dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/quiztitle"
+        android:layout_width="253dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="494dp"
+        android:ems="10"
+        android:hint="Enter a quiz title (Optional)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/publishbutton"
+        android:layout_width="211dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="648dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="#5A5454"
+        android:text="Publish"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="346dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="418dp"
+        android:ems="10"
+        android:hint="Type your question here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/answer1"
+        android:layout_width="263dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="358dp"
+        android:ems="10"
+        android:hint="Type your first answer here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/answer2"
+        android:layout_width="262dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="291dp"
+        android:ems="10"
+        android:hint="Type your second answer here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/answer3"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="228dp"
+        android:ems="10"
+        android:hint="Type your third answer here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/answer4"
+        android:layout_width="266dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="168dp"
+        android:ems="10"
+        android:hint="Type your fourth anser here"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="91dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="357dp"
+        android:text="Correct"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="291dp"
+        android:text="Correct"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="90dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="232dp"
+        android:text="Correct"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="92dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="163dp"
+        android:text="Correct"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
