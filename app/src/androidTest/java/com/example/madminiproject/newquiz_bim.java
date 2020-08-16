@@ -79,13 +79,13 @@ public class newquiz_bim extends AppCompatActivity {
        textView1.setText("$owner$");
 
        TextView textView2 = findViewById(R.id.my_account);
-       textView2.setText("My Account");
+       textView2.setText(R.string.Msg3);
 
        TextView textView3 = findViewById(R.id.log_out);
-       textView2.setText("Logout");
+       textView2.setText(R.string.Msg4);
 
         TextView textView4 = findViewById(R.id.create_title);
-        textView2.setText("Create A New Quiz");
+        textView2.setText(R.string.Msg5);
 
 
 
