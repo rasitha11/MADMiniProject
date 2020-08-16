@@ -283,7 +283,7 @@
         android:lines="@android:integer/config_mediumAnimTime"
         android:text="Quiz Manager"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#b30b00"
+        android:textColor="#E91E63"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
