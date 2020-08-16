@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/owner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newquiz_bim">
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="380dp"
+        android:layout_height="262dp"
+        android:adjustViewBounds="true"
+        android:background="#2D6ACF"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageButton
+        android:id="@+id/quizc"
+        android:layout_width="359dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageButton
+        android:id="@+id/quizb"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <ImageButton
+        android:id="@+id/quiza"
+        android:layout_width="358dp"
+        android:layout_height="47dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="380dp"
+        android:layout_height="39dp"
+        android:adjustViewBounds="true"
+        android:background="#B61C1C"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:elevation="-3dp"
+        android:layout_width="381dp"
+        android:layout_height="254dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#2D6ACF"
+        android:background="#C8C2C2"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageButton
+        android:id="@+id/delete2"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:background="#BAACAC"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ImageButton
+        android:id="@+id/delete3"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:background="#BAACAC"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <ImageButton
+        android:id="@+id/quiza"
+        android:layout_width="296dp"
+        android:layout_height="37dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        android:outlineAmbientShadowColor="B61C1C"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <ImageButton
+        android:id="@+id/quiz2"
+        android:layout_width="296dp"
+        android:layout_height="37dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <ImageButton
+        android:id="@+id/quiz3"
+        android:layout_width="296dp"
+        android:layout_height="37dp"
+        android:adjustViewBounds="true"
+        android:background="#FFC107"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="13dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="l"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <TextView
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <TextView
+        android:id="@+id/my_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text="My Account"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        tools:layout_editor_absoluteX="340dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logged in as"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:text='"Name"'
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="13dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="l"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:inputType="textPersonName"
+        android:lines="@android:integer/config_mediumAnimTime"
+        android:text="Quiz Manager"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textColor="#b30b00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="414dp"
+        android:layout_height="3dp"
+        android:background="@android:drawable/screen_background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="380dp"
+        android:layout_height="41dp"
+        android:adjustViewBounds="true"
+        android:background="#B61C1C"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/menuitem_background"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout2"
+        android:layout_width="420dp"
+        android:layout_height="29dp"
+        android:background="#FA0055"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:tabBackground="@android:drawable/title_bar"
+        app:tabIconTint="@color/colorAccent"
+        app:tabIndicator="@drawable/ic_launcher_background"
+        app:tabIndicatorColor="#670101"
+        app:tabRippleColor="#0325E4"
+        app:tabSelectedTextColor="#E91E63"
+        app:tabTextColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-9dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Quiz" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Quizzes" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forum" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <ImageButton
+        android:id="@+id/delete1"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:background="#BAACAC"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="183dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
