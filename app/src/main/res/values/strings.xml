@@ -5,5 +5,6 @@
     <string name="Msg3">"My Account"</string>
     <string name="Msg4">"Logout"</string>
     <string name="Msg5">"Create A New Quiz"</string>
+    <string name="correct">Correct</string>
 
 </resources>

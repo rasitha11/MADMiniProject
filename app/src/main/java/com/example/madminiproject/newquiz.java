@@ -12,16 +12,15 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.madminiproject.R;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
-public class newquiz_bim extends AppCompatActivity {
+public class newquiz extends AppCompatActivity {
 
     private TabLayout tablayout;
     private ViewPager viewPager;
     private TabItem tab1, tab2, tab3, tab4;
-    public  PagerAdapter pagerAdapter;
+    public PagerAdapter pagerAdapter;
 
     String quiztitle,question,answer1,answer2,answer3,answer4;
 
@@ -42,7 +41,7 @@ public class newquiz_bim extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.newquiz_bim);
+        setContentView(R.layout.activity_newquiz);
 
         titleInput = (EditText) findViewById(R.id.quiztitle);
         questionInput = (EditText) findViewById(R.id.question);
@@ -75,14 +74,14 @@ public class newquiz_bim extends AppCompatActivity {
 
 
 
-       TextView textView1 = findViewById(R.id.owner);
-       textView1.setText("$owner$");
+        TextView textView1 = findViewById(R.id.owner);
+        textView1.setText("$owner$");
 
-       TextView textView2 = findViewById(R.id.my_account);
-       textView2.setText(R.string.Msg3);
+        TextView textView2 = findViewById(R.id.my_account);
+        textView2.setText(R.string.Msg3);
 
-       TextView textView3 = findViewById(R.id.log_out);
-       textView2.setText(R.string.Msg4);
+        TextView textView3 = findViewById(R.id.log_out);
+        textView2.setText(R.string.Msg4);
 
         TextView textView4 = findViewById(R.id.create_title);
         textView2.setText(R.string.Msg5);
@@ -90,10 +89,10 @@ public class newquiz_bim extends AppCompatActivity {
 
 
 
-       ImageView myImageView = (ImageView) findViewById(R.id.profile);
-       myImageView.setImageResource(R.drawable.profilepic);
+        ImageView myImageView = (ImageView) findViewById(R.id.profile);
+        myImageView.setImageResource(R.drawable.profilepic);
 
-       ImageView myImageView1 = (ImageView) findViewById(R.id.logo);
-       myImageView1.setImageResource(R.drawable.quiz);
+        ImageView myImageView1 = (ImageView) findViewById(R.id.logo);
+        myImageView1.setImageResource(R.drawable.quiz);
     }
 }
